@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" type="text/css" href="result_page.css">
+</head>
+<body>
+    <header>
+        <div class ="header_box">
+            <div class ="header_box_left">
+                <img src="/img/semoss_logo_white 1.png">
+                <p>세상의 모든 쓰레기 분리수거 정보</p>
+            </div>
+            <div class ="header_box_right">
+                <p>INFO</p>
+                <p>QNA</p>
+                <img src="/img/header_search.png">
+            </div>
+        </div>
+    </header>
+
+    <div id="main_box">
+    <div class="content_box">
+        <div id="result_box">
+            <div id="result_img_box">
+                <img class="result_img" src="/img/umbrella.png">
+            </div>
+            <div id="result_text_box">
+                <p id="result_text">우산</p>
+                <hr style="border: solid 1px white; width: 60px; margin:0px;">
+                <p id="result_text_2">여기에 한줄요약이 들어갑니다.</p>
+                <div id="result_share_box">
+                    <img src="/img/Group 27.png" style="width:173.27px;">
+                    <img src="/img/icon_share.png" style="width:25px; height:25px; margin-left:10px">
+                </div>
+            </div>
+
+        </div>
+        <p id = "sequence">처리 절차</p>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="width:327px;">
+                <p>1. 첫번째 사용법입니다</p>
+                <div class="image">
+                    <img src="/img/umbrella.png" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <p>2. 두번째 사용법입니다.</p>
+                <div class="image">
+                    <img src="/img/umbrella.png" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <p>3. 세번째 사용법</p>
+                <div class="image">
+                    <img src="/img/umbrella.png" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <p>4. 네번째 사용법</p>
+                <div class="image">
+                    <img src="/img/umbrella.png" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <p>5. 다섯번째 사용법</p>
+                <div class="image">
+                    <img src="/img/umbrella.png" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <p>6. 여섯번째 사용법</p>
+                <div class="image">
+                    <img src="/img/umbrella.png" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <p>7. 일곱번째 사용법</p>
+                <div class="image">
+                    <img src="/img/umbrella.png" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <p id = "sequence">유사 쓰레기</p>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="width:327px;">
+                <div class="image">
+                    <img src="/img/parasol.png" alt="">
+                </div>
+                <div class="similar_back">
+                    <p class="simliar_back-text">파라솔</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image">
+                    <img src="/img/ruler.png" alt="">
+                </div>
+                <div class="similar_back">
+                    <p class="simliar_back-text">자</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image">
+                    <img src="/img/umbrella.png" alt="">
+                </div>
+                <div class="similar_back">
+                    <p class="simliar_back-text">test</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image">
+                    <img src="/img/umbrella.png" alt="">
+                </div>
+                <div class="similar_back">
+                    <p class="simliar_back-text">test</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image">
+                    <img src="/img/umbrella.png" alt="">
+                </div>
+                <div class="similar_back">
+                    <p class="simliar_back-text">test</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image">
+                    <img src="/img/umbrella.png" alt="">
+                </div>
+                <div class="similar_back">
+                    <p class="simliar_back-text">test</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image">
+                    <img src="/img/umbrella.png" alt="">
+                    <div class="similar_back">
+                        <p class="simliar_back-text">test</p>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+
+
+
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 2.5,
+          centeredSlides: false,
+          spaceBetween: 30,
+          grabCursor: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
+
+</body>
+</html>
